@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Qargo Notes
 
-## Getting Started
+Aplicación de notas rápidas con autenticación ficticia, diseñada como parte del reto técnico para Qargo Coffee. Permite a los usuarios registrarse, iniciar sesión y gestionar sus notas personales.
 
-First, run the development server:
+---
+
+## 🚀 Características
+
+- ✅ Registro de usuarios (mocked)
+- ✅ Login con verificación de credenciales
+- ✅ Crear, listar, editar y eliminar notas
+- ✅ Persistencia de datos con LocalStorage
+- ✅ Responsive y usable en móviles, tablets y escritorio
+- ✅ Botón de cerrar sesión
+- ✅ Desarrollado con **Next.js 13+**, **TypeScript**, **TailwindCSS** y **Lucide Icons**
+
+---
+
+## 📦 Instalación local
 
 ```bash
+git clone https://github.com/ManuPro14/qargo-notes.git
+cd qargo-notes
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La app estará disponible en http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Uso
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Regístrate con un nombre, correo y contraseña
+2. Inicia sesión
+3. Comienza a crear, editar y eliminar tus notas
+4. Cierra sesión con el botón en la parte superior derecha
 
-## Learn More
+## 🌐 Deploy
 
-To learn more about Next.js, take a look at the following resources:
+👉 Puedes probar la app en producción aquí:
+🔗 https://qargo-prueba.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologías utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- TypeScript
+- TailwindCSS
+- Lucide React Icons
+- UUID para identificación de notas
 
-## Deploy on Vercel
+# 📁 Estructura básica del proyecto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+src/
+├── app/
+│   ├── login/
+│   ├── signup/
+│   └── notes/
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📩 Envío
+
+Este proyecto fue desarrollado como parte del reto técnico de Qargo Coffee.
+
+Autor: Manuel Barrios
+Repositorio: https://github.com/ManuPro14/qargo-notes
+Demo: https://qargo-prueba.vercel.app/
